@@ -1,0 +1,219 @@
+@media screen and (max-width: 767.98px) {
+
+    .header-list,
+    .contact-information {
+        display: none;
+    }
+
+    .section-content-h {
+        text-align: center;
+    }
+
+    .logo-footer {
+        display: flex;
+        justify-content: center;
+    }
+
+    .social-media-footer {
+        text-align: center;
+    }
+
+    .footer-form-paragraph {
+        text-align: center;
+    }
+
+    .logo-container {
+        margin: 0 auto;
+    }
+
+    .social-block {
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (min-resolution: 192dpi) {
+    .hero-section {
+        background-image: linear-gradient(var(--c-tr-bg), var(--c-tr-bg)),
+            url(../images/hero-section/hero-mobile@2x.jpg);
+    }
+}
+
+/* Tablet */
+
+@media screen and (min-width: 768px) {
+    .container {
+        width: 768px;
+    }
+
+    .hero-section {
+        max-width: 768px;
+        padding: 112px 0;
+        background-image: linear-gradient(var(--c-tr-bg), var(--c-tr-bg)),
+            url(../images/hero-section/hero-section-tablet.jpg);
+    }
+
+    .hero-title {
+        font-size: 56px;
+        line-height: 1.07;
+    }
+
+    .button-menu-tools {
+        display: none;
+    }
+
+    .section-content-list {
+        gap: 24px;
+        row-gap: 72px;
+    }
+
+    .section-content-li {
+        width: calc((100% - 24px) / 2);
+    }
+
+    .section-team-list-item {
+        gap: 24px;
+        row-gap: 64px;
+        justify-content: center;
+    }
+
+    .section-portfolio-li {
+        gap: 24px;
+        row-gap: 72px;
+        padding: 0;
+    }
+
+    .section-portfolio-list {
+        width: calc((100% - 24px) / 2);
+    }
+
+    .footer-container{
+        gap: 24px;
+        row-gap: 72px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1156.98px) {
+    .contact-information {
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+
+    .header-list {
+        flex-direction: row;
+        gap: 12px;
+    }
+
+    .contact {
+        padding: 0;
+        font-size: 12px;
+        line-height: 1.16;
+        letter-spacing: 0.04em;
+    }
+
+    .footer-container {
+        padding-left: 92px;
+    }
+}
+
+@media only screen and (min-resolution: 192dpi) and (min-width: 768px) {
+    .hero-section {
+        background-image: linear-gradient(var(--c-tr-bg), var(--c-tr-bg)),
+            url(../images/hero-section/hero-section-tablet@2x.jpg);
+    }
+}
+
+/* 
+Desktop
+*/
+@media (max-width: 1157.98px) {
+    .icon-container {
+        visibility: hidden;
+        position: absolute;
+    }
+
+    .section-content-p {
+        font-weight: 500;
+    }
+}
+
+@media screen and (min-width: 1158px) {
+    .container {
+        width: 1158px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .logo {
+        padding: 24px 0;
+    }
+
+    .hero-section {
+        max-width: 1440px;
+        padding: 188px 0;
+        background-image: linear-gradient(var(--c-tr-bg), var(--c-tr-bg)),
+            url(../images/hero-section/peopleoffice.jpg);
+    }
+
+    .section-content-li {
+        width: calc((100% - 72px) / 4);
+    }
+
+    .icon-container {
+        background-color: var(--c-second);
+        border: 1px solid var(--c-light-slate);
+        padding: 24px 100px;
+        margin-bottom: 8px;
+        height: 112px;
+        border-radius: 4px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section-content-h {
+        font-size: 20px;
+        line-height: 1.2;
+        font-weight: 500;
+    }
+
+    /* Team Section */
+    .section-team {
+        padding: 120px 0;
+    }
+
+    /* Portfolio */
+    .section-portfolio {
+        padding: 120px 0;
+    }
+
+    .section-portfolio-li {
+        row-gap: 48px;
+    }
+
+    .section-portfolio-list {
+        width: calc((100% - 48px) / 3);
+    }
+
+    .footer {
+        padding: 100px 0;
+    }
+
+    .footer-form-input {
+        width: 264px;
+    }
+
+    .logo-container {
+        margin-right: 40px;
+    }
+
+    .footer-container {
+        gap: 80px;
+    }
+}
+
+@media only screen and (min-resolution: 192dpi) and (min-width: 1158px) {
+    .hero-section {
+        background-image: linear-gradient(var(--c-tr-bg), var(--c-tr-bg)),
+            url(../images/hero-section/people-office@2x.jpg);
+    }
+}
