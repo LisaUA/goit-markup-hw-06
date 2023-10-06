@@ -882,8 +882,8 @@ body {
     cursor: pointer;
     top: 24px;
     right: 24px;
-    left: 272px;
-    bottom: 592px;
+    /*left: 272px;
+    bottom: 592px;*/
     width: 24px;
     height: 24px;
     border-radius: 50%;
