@@ -79,7 +79,13 @@ body {
 .header-container{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     gap: 24px;
+}
+
+.header-list{
+    display: flex;
+    gap: 40px;
 }
 
 .header-nav{
@@ -193,6 +199,7 @@ body {
     gap: 48px;
     align-items: center;
     max-width: 320px;
+    height: 432px;
 }
 
 .hero-title{
@@ -865,6 +872,24 @@ body {
 
 .menu-container.is-open {
     transform: translateX(0);
+}
+
+.mobile-close{
+    position: absolute;
+    background-color: var(--c-primary-light);
+    border: 1px solid var(--c-cornflower);
+    border-radius: 50%;
+    cursor: pointer;
+    top: 24px;
+    right: 24px;
+    left: 272px;
+    bottom: 592px;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    
 }
 
 .mobile-header-list {

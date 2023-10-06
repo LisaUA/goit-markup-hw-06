@@ -99,7 +99,11 @@
     }
 
     .header-list {
-        flex-direction: row;
+        gap: 40px;
+    }
+
+    .header-list-con{
+        flex-direction: column;
         gap: 12px;
     }
 
@@ -141,6 +145,11 @@ Desktop
         width: 1158px;
         padding-left: 15px;
         padding-right: 15px;
+    }
+
+    .header-list-con {
+        display: flex;
+        gap: 40px;
     }
 
     .logo {
